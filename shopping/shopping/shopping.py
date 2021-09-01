@@ -5,4 +5,4 @@ shopping_list={
 print(shopping_list)
 
 for keys in shopping_list:
-    print(f"Wchodzę do ", keys , " i kupuję tam: " , shopping_list[keys])
+    print(f"Wchodzę do ", keys.capitalize() , " i kupuję tam: " , shopping_list[keys])
