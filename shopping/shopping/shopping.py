@@ -1,9 +1,10 @@
 print("Hello :)")
 shopping_list={
-    "warzywniak" : ["marchew", "seler", "rukola"],
+    "warzywniak" : ["marchew", "seler", "rukola", "ziemniaki" ,"cebula"],
     "piekarnia" : ["bułka", "chleb", "pączek"]
     }
 print(shopping_list)
+print('\n')
 
 for keys in shopping_list:
     print(f"Wchodzę do ", keys.capitalize() , " i kupuję tam: " , shopping_list[keys])
