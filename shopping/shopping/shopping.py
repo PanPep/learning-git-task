@@ -1,3 +1,4 @@
+print("Hello :)")
 shopping_list={
     "warzywniak" : ["marchew", "seler", "rukola"],
     "piekarnia" : ["bułka", "chleb", "pączek"]
